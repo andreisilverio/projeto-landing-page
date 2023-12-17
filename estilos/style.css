@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 601px até 768px
+Tablet: 769px até 992px
+Desktop: 993px até 1200px
+Grandes telas: acima de 1201px
+*/
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: black;
+    }
+
+    header h1 {
+        color: white;
+    }
+
+    header p {
+        color: white;
+    }
+
+    nav span {
+        color: white;
+        margin-right: 50px
+        
+        
+    }
+
+    nav img {
+        display: ;
+    }
+}
