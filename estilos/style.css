@@ -11,7 +11,7 @@ Desktop: 993px até 1200px
 Grandes telas: acima de 1201px
 */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:501px) {
 
     * {
         margin: 0%;
@@ -26,6 +26,7 @@ Grandes telas: acima de 1201px
     header {
         background-color: darkseagreen;
         margin-bottom: 10px;
+        border-radius: 5px;
     }
 
     header h1 {
@@ -43,8 +44,8 @@ Grandes telas: acima de 1201px
     }
 
     nav img {
-        padding: 10px;
         margin: auto;
+        padding: 14px;
         height: 50px;
         color: white;
     }
@@ -60,7 +61,7 @@ Grandes telas: acima de 1201px
     }
 
     input {
-        width: 400px;
+        width: 430px;
         height: 20px;
         padding: 10px;
         border-radius: 5px;
@@ -85,6 +86,7 @@ Grandes telas: acima de 1201px
     }
 
     main .aj {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         margin: 10px;
         display: block;
         background-color: black;
@@ -100,6 +102,7 @@ Grandes telas: acima de 1201px
     }
 
     main .af {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         margin: 10px;
         display: block;
         background-color: black;
@@ -115,6 +118,7 @@ Grandes telas: acima de 1201px
     }
 
     main .am {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         margin: 10px;
         display: block;
         background-color: black;
@@ -130,6 +134,7 @@ Grandes telas: acima de 1201px
     }
 
     main .sb {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         margin: 10px;
         display: block;
         background-color: black;
@@ -168,4 +173,169 @@ Grandes telas: acima de 1201px
         text-align: center;
     }
   
+}
+
+
+@media screen and (min-width:502px) and (max-width:769px) {
+    
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    body {
+        background-color: darkcyan;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: darkseagreen;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    header h1 {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 3em;
+    }
+
+    header p {
+        color: white;
+        text-align: justify;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    nav img {
+        
+        padding: 10px;
+        margin-right: 100px;
+        height: 50px;
+        color: white;
+    }
+
+    nav img.logo {
+        margin: auto;
+        height: 200px;
+        border-radius: 110px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    input {
+        width: 430px;
+        height: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    main {
+        background-color: darkcyan;
+    }
+
+    main h1 {
+        background-color: white;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 250px);
+        gap: 1em;
+    }
+
+    main .aj {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../imagens/tenis-jordan1.jpg);
+        height: 250px;
+        width: 250px;
+        background-color: darkcyan;
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+    }
+
+    main .af {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../imagens/tenis-force.jpg);
+        height: 250px;
+        width: 250px;
+        background-color: darkcyan;
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+    }
+
+    main .am {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../imagens/tenis-max-plus.jpg);
+        height: 250px;
+        width: 250px;
+        background-color: darkcyan;
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+    }
+
+    main .sb {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../imagens/tenis-dunk.jpg);
+        height: 250px;
+        width: 250px;
+        background-color: darkcyan;
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+    }
+
+    footer {
+        background-color: black;
+        margin-top: 10px;
+        padding: 50px;
+        border-radius: 5px;
+       
+    }
+
+    footer p {
+        color: white;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        margin: auto;
+    }
+
+    footer .cliente {
+        text-align: center;
+    }
+
+    footer .email {
+        text-align: center;
+    }
 }
