@@ -9,15 +9,14 @@
 
 body {
     background-color: darkgray;
-    height: 100vh;
-    width: 100vw;
+  
 }
 
 header {
-    width: 100vw;
-    display: block;
-    margin: auto;
-    background-color: lightblue;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.534), rgb(255, 255, 0));
+   min-height: 150px;
+ 
+    
 }
 
 header > h1 {
@@ -34,7 +33,7 @@ header > p {
 
 header > nav {
     display: block;
-    background-color: lightcoral;
+   
     margin: auto;
     padding: 10px;
     width: 500px;
@@ -66,7 +65,7 @@ main {
     width: 100vw;
     display: block;
     margin: auto;
-    background-color: lightsalmon;
+   
 }
 
 main > h1 {
@@ -148,7 +147,7 @@ footer {
     display: block;
     margin: auto;
     height: 100px;
-    background-color: lightyellow;
+    
 }
 
 footer > p {
