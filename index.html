@@ -8,53 +8,43 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
-    <header>
-       
-        <section id="cabeçalho">
+        <header>
 
             <h1>Notorious Sneakers</h1>
 
             <p>Passos de Estilo, Escolha a Notoriedade: Sua Jornada Fashion Começa na Notorious Sneakers.</p>
 
-            <nav id="navegação">
-
-                <img src="imagens/cardapio.png" alt="Botão de Menu">
-                <img src="imagens/logo-notorious-sneakers1.png" alt="Logo Notorious Sneakers">
-                <img src="imagens/rastreamento.png" alt="Botão de Rastreamento">
-                <img src="imagens/bolsa-de-compras.png" alt="Botão de Carrinho de Compras">
-
+            <nav>
+                <img src="imagens-celular/cardapio-celular.png" alt="Botão de Menu">
+                <img src="imagens-celular/logo-notorious-sneakers-celular.png" alt="Logo Notorious Sneakers">
+                <img src="imagens-celular/rastreamento-celular.png" alt="Botão de Rastreamento">
+                <img src="imagens-celular/bolsa-de-compras-celular.png" alt="Botão de Carrinho de Compras">
             </nav>
 
-            <div id="formulario">
+            <form action="pesquisa.php" method="post">
+                <input type="text" name="busca" id="ibusca" required placeholder="O que está buscando?">
+                <label for="ibusca"></label>
+            </form>
 
-                <form action="pesquisa.php" method="post">
-                    <input type="text" name="busca" id="ibusca" required placeholder="O que está buscando?">
-                    <label for="ibusca"></label>
-                </form>
+        </header>
 
-            </div>
+        <main>
+            <h1>Variedades no mundo do Hip-Hop!</h1>
             
-        </section>
-
-    </header>
-
-    <main>
-        <h1>Variedades no mundo do Hip-Hop!</h1>
-
-        <section class="container">
-            <p class="aj">Air Jordan</p>
-            <p class="af">Air Force</p>
-            <p class="am">Air Max</p>
-            <p class="sb">SB Dunk</p>
-        </section>
+            <section class="container">
+             <p class="aj">Air Jordan 1</p>
+             <p class="af">Air Force 1</p>
+             <p class="sb">Dunk SB</p>
+             <p class="mp">Air Max Plus</p>
+            </section>
         
-        <h1>Em Breve!</h1>
-    </main>
+            <h1>Em Breve!</h1>
 
-    <footer>
-        <p class="cliente">Atendimento ao Cliente</p>
+        </main>
 
-        <p class="email">Email: notorioussneakers@gmail.com</p>
-    </footer>
+        <footer>
+            <p class="cliente">Atendimento ao Cliente</p>
+            <p class="email">Email: notorioussneakers@gmail.com</p>
+        </footer>
 </body>
 </html>
