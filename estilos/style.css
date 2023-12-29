@@ -10,10 +10,11 @@
 body {
     background-color: darkgray;
     height: 100vh;
-    width: 150vw;
+    width: 100vw;
 }
 
 header {
+    width: 100vw;
     display: block;
     margin: auto;
     background-color: lightblue;
@@ -62,6 +63,7 @@ header > form > input {
 
 
 main {
+    width: 100vw;
     display: block;
     margin: auto;
     background-color: lightsalmon;
@@ -142,6 +144,7 @@ main > h1 {
 }
 
 footer {
+    width: 100vw;
     display: block;
     margin: auto;
     height: 100px;
