@@ -57,8 +57,6 @@ header > form > input {
     height: 40px;
 }
 
-
-
 main {
     width: 100vw;
     display: block;
@@ -76,8 +74,72 @@ main > h1 {
 .container {
     display: grid;
     margin: auto;
-    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-columns: repeat(auto-fill, 200px);
     gap: 1em;
+}
+
+.aj {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/tenis-jordan1.jpg);
+    height: 150px;
+    width: 150px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.af {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/tenis-force.jpg);
+    height: 150px;
+    width: 150px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.mp {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/tenis-max-plus.jpg);
+    height: 150px;
+    width: 150px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+main .sb {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/tenis-dunk.jpg);
+    height: 150px;
+    width: 150px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
 }
 
 
