@@ -9,14 +9,12 @@
 
 body {
     background-color: darkgray;
-    
-  
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
     background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.534), rgb(255, 255, 0));
-    width: auto;
-
 }
 
 header > h1 {
@@ -36,12 +34,12 @@ header > nav {
     display: block;
     background-color: lightblue;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
     height: 80px;
 }
 
 header > nav > img {
-   margin-right: 25px;
+   margin-right: 35px;
    border-radius: 5px;
 }
 
@@ -94,5 +92,5 @@ footer {
 footer > p {
     padding: 10px;
     margin: 10px;
-    font-size: 1.5em
+    font-size: 1em
 }
