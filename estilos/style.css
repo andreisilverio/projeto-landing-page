@@ -160,7 +160,7 @@ footer {
 }
 
 footer > p {
-    text-align: center;
+    text-align: left;
     padding: 10px;
     margin: 10px;
     font-size: 1.5em
