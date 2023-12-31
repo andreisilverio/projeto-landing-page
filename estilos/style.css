@@ -42,18 +42,18 @@ header > nav {
     display: block;
     background-color: rgba(0, 0, 0, 0.062);
     margin: auto;
-    padding: 15px;
+    padding: 20px;
     height: 80px;
 }
 
 header > nav > img {
    padding-right: 20px;
-   margin-right: 10px;
+   margin-right: 40px;
    border-radius: 5px;
 }
 
 header > form {
-    margin: 15px;
+    margin: 10px;
 }
 
 header > form > input {
@@ -61,7 +61,7 @@ header > form > input {
     display: block;
     margin: auto;
     height: 40px;
-    width: 250px;
+    width: 200px;
   
 }
 
@@ -103,7 +103,7 @@ main > h1 {
     width: 150px;
     text-align: center;
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .af {
@@ -118,7 +118,7 @@ main > h1 {
     width: 150px;
     text-align: center;
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .mp {
@@ -133,7 +133,7 @@ main > h1 {
     width: 150px;
     text-align: center;
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 main .sb {
@@ -148,7 +148,7 @@ main .sb {
     width: 150px;
     text-align: center;
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
