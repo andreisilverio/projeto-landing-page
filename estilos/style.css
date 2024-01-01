@@ -8,14 +8,13 @@
 }
 
 body {
-    background-color: darkgray;
+    background-color: lightgray;
     width: 100vw;
     height: 100vh;
 }
 
 header {
     height: 280px;
-    background-color: lightcyan;
     display: block;
     margin: auto;
 }
@@ -44,7 +43,6 @@ header > p {
 header > nav {
     max-width: 500px;
     display: block;
-    background-color: rgba(0, 0, 0, 0.062);
     margin: auto;
     padding: 20px;
     height: 80px;
@@ -77,6 +75,7 @@ main {
 }
 
 main > h1 {
+    color: white;
     max-width: 500px;
     border-radius: 5px;
     background-image: linear-gradient(lightblue, lightgreen);
@@ -157,7 +156,8 @@ main .sb {
 
 
 footer {
-    background-color: lightgrey;
+    border: 5px;
+    background-color: darkgray;
     width: 100vw;
     display: block;
     margin: auto;
@@ -166,8 +166,9 @@ footer {
 }
 
 footer > p {
+    color: white;
     text-align:left;
     padding: 10px;
     margin: 10px;
-    font-size: 1.2em
+    font-size: 1em
 }
