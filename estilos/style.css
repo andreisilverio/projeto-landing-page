@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 280px;
+    height: 300px;
     display: block;
     margin: auto;
 }
@@ -45,22 +45,20 @@ header > p {
 }
 
 .centro {
+    position: relative;
     display: flex;
     align-items: center;
 }
 
-header > nav {
-    background-color: rgba(255, 255, 255, 0.5);
-    display: block;
-    margin: auto;
-    padding: 20px;
-    height: 80px;
+.direito {
+    position: absolute;
+    left: 50%;
 }
 
-header > nav > img {
-   padding-right: 20px;
-   margin-right: 70px;
-   border-radius: 5px;
+header > nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    height: 80px;
 }
 
 .rastreio {
@@ -68,9 +66,16 @@ header > nav > img {
 }
 
 .caixa {
+    position: relative;
     display: flex;
     align-items: center;
 }
+
+.lupa {
+    position: absolute;
+    left: 10%;
+}
+
 
 header > form {
     padding: 10px;
@@ -85,7 +90,6 @@ header > form > input {
     margin: auto;
     height: 40px;
     width: 200px;
-  
 }
 
 main {

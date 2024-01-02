@@ -56,21 +56,36 @@ Grandes telas: acima de 1201px
         text-align: justify;
     }
     
+    .centro {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .direito {
+        left: 88%;
+        position: absolute;
+    }
+
     header > nav {
         background-color: rgba(255, 255, 255, 0.5);
-        display: block;
-        margin: auto;
         padding: 20px;
         height: 80px;
     }
     
-    header > nav > img {
-       margin-right: 230px;
-       border-radius: 5px;
-    }
-    
     .rastreio {
         margin-right: 10px;
+    }
+
+    .caixa {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .lupa {
+        position: absolute;
+        left: 25%;
     }
 
     header > form {
@@ -82,11 +97,8 @@ Grandes telas: acima de 1201px
     header > form > input {
         background-color: darkgray;
         border-radius: 5px;
-        display: block;
-        margin: auto;
         height: 40px;
-        width: 200px;
-      
+        width: 400px;
     }
     
     main {
