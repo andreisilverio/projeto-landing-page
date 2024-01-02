@@ -47,7 +47,6 @@ Grandes telas: acima de 1201px
     
     header > h1 > img {
         border-radius: 100px;
-        
     }
     
     header > p {
@@ -89,6 +88,7 @@ Grandes telas: acima de 1201px
     }
 
     header > form {
+        width: auto;
         padding: 10px;
         background-color: rgba(255, 255, 255, 0.5);
         margin: 15px;
