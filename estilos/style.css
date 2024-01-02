@@ -22,7 +22,7 @@ header {
 header > h1 {
     color: white;
     border-radius: 5px;
-    background-image: linear-gradient(to bottom, rgb(128, 0, 128), darkblue);
+    background-color: darkcyan;
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
@@ -41,6 +41,7 @@ header > p {
 }
 
 header > nav {
+    background-color: rgba(255, 255, 255, 0.5);
     max-width: 500px;
     display: block;
     margin: auto;
@@ -55,10 +56,14 @@ header > nav > img {
 }
 
 header > form {
+    padding: 10px;
+    width: 485px;
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 15px;
 }
 
 header > form > input {
+    background-color: darkgray;
     border-radius: 5px;
     display: block;
     margin: auto;
@@ -78,7 +83,7 @@ main > h1 {
     color: white;
     max-width: 500px;
     border-radius: 5px;
-    background-image: linear-gradient(lightblue, lightgreen);
+    background-color: darkcyan;
     text-align: center;
     font-size: 1.5em;
     margin-top: 20px;
@@ -170,5 +175,5 @@ footer > p {
     text-align:left;
     padding: 10px;
     margin: 10px;
-    font-size: 1em
+    font-size: 1.2em
 }
