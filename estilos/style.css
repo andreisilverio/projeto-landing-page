@@ -22,7 +22,7 @@ header {
 header > h1 {
     color: white;
     border-radius: 5px;
-    background-image: linear-gradient(to bottom, purple, darkblue);
+    background-image: linear-gradient(to bottom, rgb(128, 0, 128), darkblue);
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
