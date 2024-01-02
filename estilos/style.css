@@ -54,8 +54,12 @@ header > nav {
 
 header > nav > img {
    padding-right: 20px;
-   margin-right: 15px;
+   margin-right: 50px;
    border-radius: 5px;
+}
+
+.rastreio {
+    margin-right: 10px;
 }
 
 header > form {
@@ -75,6 +79,7 @@ header > form > input {
 }
 
 main {
+    height: 530px;
     width: 100vw;
     display: block;
     margin: auto;
