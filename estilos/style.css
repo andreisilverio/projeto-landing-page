@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 300px;
+    height: 270px;
     display: block;
     margin: auto;
 }
@@ -31,11 +31,6 @@ header > h1 {
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
-}
-
-header > h1 > img {
-    border-radius: 100px;
-    
 }
 
 header > p {
@@ -52,7 +47,7 @@ header > p {
 
 .direito {
     position: absolute;
-    left: 50%;
+    left: 70%;
 }
 
 header > nav {
@@ -73,11 +68,13 @@ header > nav {
 
 .lupa {
     position: absolute;
-    left: 10%;
+    left: 5%;
 }
 
 
 header > form {
+    border-radius: 10px;
+    width: 300px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 15px;
@@ -105,8 +102,8 @@ main > h1 {
     background-color: darkcyan;
     text-align: center;
     font-size: 1.5em;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 10px;
     
 }
