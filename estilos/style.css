@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 300px;
+    height: 280px;
     display: block;
     margin: auto;
 }
@@ -122,7 +122,7 @@ main > h1 {
     background-color: black;
     border-radius: 5px;
     font-family: 'Teko', sans-serif;
-    background-image: url(../imagens/tenis-jordan1.jpg);
+    background-image: url(../imagens-celular/tenis-jordan1.jpg);
     height: 150px;
     width: 150px;
     text-align: center;
@@ -137,7 +137,7 @@ main > h1 {
     background-color: black;
     border-radius: 5px;
     font-family: 'Teko', sans-serif;
-    background-image: url(../imagens/tenis-force.jpg);
+    background-image: url(../imagens-celular/tenis-force.jpg);
     height: 150px;
     width: 150px;
     text-align: center;
@@ -152,7 +152,7 @@ main > h1 {
     background-color: black;
     border-radius: 5px;
     font-family: 'Teko', sans-serif;
-    background-image: url(../imagens/tenis-max-plus.jpg);
+    background-image: url(../imagens-celular/tenis-max-plus.jpg);
     height: 150px;
     width: 150px;
     text-align: center;
@@ -160,14 +160,14 @@ main > h1 {
     font-size: 1.5em;
 }
 
-main .sb {
+.sb {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     margin: auto;
     display: block;
     background-color: black;
     border-radius: 5px;
     font-family: 'Teko', sans-serif;
-    background-image: url(../imagens/tenis-dunk.jpg);
+    background-image: url(../imagens-celular/tenis-dunk.jpg);
     height: 150px;
     width: 150px;
     text-align: center;
@@ -175,6 +175,29 @@ main .sb {
     font-size: 1.5em;
 }
 
+.vm {
+    display: none;
+}
+
+.ln {
+    display: none;
+}
+
+.ub {
+    display: none;
+}
+
+.yz {
+    display: none;
+}
+
+.nb5 {
+    display: none;
+}
+
+.nb2 {
+    display: none;
+}
 
 footer {
     border: 5px;
