@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 280px;
+    height: 290px;
     display: block;
     margin: auto;
 }
@@ -39,10 +39,26 @@ header > p {
     text-align: justify;
 }
 
+nav {
+    display: none;
+}
+
 .centro {
     position: relative;
     display: flex;
     align-items: center;
+}
+
+#menu {
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+
+#menu:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 1s;
 }
 
 .direito {
@@ -59,6 +75,23 @@ header > nav {
 .rastreio {
     margin-right: 10px;
 }
+
+header > nav > ul {
+    list-style-type: none;
+}
+
+header > nav > ul > li > a {
+   background-color: gray;
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+}
+
+header > nav > ul > li > a:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 1s;
+ }
 
 .caixa {
     position: relative;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/style.css"> 
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="shortcut icon" href="imagens-celular/logo-notorious.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <body>
         <header>
@@ -15,11 +16,19 @@
             <p>Passos de Estilo, Escolha a Notoriedade: Sua Jornada Fashion Começa na Notorious Sneakers.</p>
 
             <nav class="centro">
-                <img src="imagens-celular/cardapio-celular.png" alt="Botão de Menu">
+               
+                <span id="menu" class="material-icons">menu</span>
+
                 <div class="direito">
-                    <img class="rastreio" src="imagens-celular/rastreamento-celular.png" alt="Botão de Rastreamento">
-                    <img src="imagens-celular/bolsa-de-compras-celular.png" alt="Botão de Carrinho de Compras">
+                    <span class="material-icons" id="mapa">explore</span>
+                    <span  class="material-icons" id="carrinho">work</span>
                 </div>
+
+                <ul>
+                    <li>
+                        <a href="index2.html" target="_self">Quem Somos ?</a>
+                    </li>
+                </ul>
             </nav>
 
             
@@ -57,5 +66,16 @@
             <br>E-mail: notorioussneakers@gmail.com</br>
            </p>
         </footer>
+
+    <script>
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
