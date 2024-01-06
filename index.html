@@ -21,14 +21,15 @@
                 onclick="clickMenu()">menu</span>
 
                 <div class="direito">
-                    <a href="index3.html">
-                        Rastrear Pedido
+                    <a href="https://rastreamento.correios.com.br/app/index.php">
                         <img src="imagens-celular/rastreamento-celular.png" alt="">
                     </a>
 
-                    <a href="index4.html">
-                        Carrinho
-                        <img src="imagens-celular/bolsa-de-compras-celular.png" alt="">                    </a>
+                    
+                    <span id="carrinho"
+                    onclick="clickCarrinho()">
+                        <img src="imagens-celular/bolsa-de-compras-celular.png" alt="">               
+                    </span>
                 </div>
 
                 <menu id="itens"> 
@@ -39,16 +40,15 @@
                     </ul>
                 </menu>
             </nav>
-
-            
-                <form class="caixa" action="pesquisa.php" method="post">
-                    <div class="lupa">
-                        <img src="imagens-celular/lupa.png" alt="">
-                    </div>
-                    <input type="text" name="busca" id="ibusca" required placeholder="O que está buscando?">
-                    <label for="ibusca"></label>
-                </form>
-            
+        
+            <form class="caixa" action="pesquisa.php" method="post">
+                <div class="lupa">
+                    <img src="imagens-celular/lupa.png" alt="">
+                </div>
+                <input type="text" name="busca" id="ibusca" required placeholder="Busca por modelo de tênis">
+                <label for="ibusca"></label>
+            </form>
+        
         </header>
 
         <main>

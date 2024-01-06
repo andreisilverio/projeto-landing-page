@@ -55,12 +55,24 @@
         border-radius: 50%;
     }
 
-    .rodape { 
-        width: 500px;
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 20px;
-        height: 40px;
-        border-radius: 5px;
+    footer > a {
+        text-decoration: none
+    }
+
+   footer > a > button  { 
+      width: 300px;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 10px;
+      display: block;
+      margin: auto;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+
+    footer > a > button:hover {
+        background-color: gray;
+        color: white;
+        transition: 1s;
     }
 
     </style>
@@ -78,11 +90,9 @@
     </main>
 
     <footer>
-        <p class="rodape">
-            <a href="index.html">
-                <img src="imagens-celular/botao-voltar.png" alt="botao voltar">
-            </a>
-        </p>
+        <a href="index.html">
+            <button>Voltar</button>
+        </a>
     </footer>
 
 </body>
