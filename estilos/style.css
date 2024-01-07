@@ -10,6 +10,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 body {
@@ -126,6 +128,8 @@ header > form {
 }
 
 header > form > input {
+    padding: 10px;
+    color: white;
     background-color: darkgray;
     border-radius: 5px;
     display: block;
